@@ -152,6 +152,7 @@
 	background: #000;
 	margin-top: 60px;
 	background: url(../images/introduction-top.png);
+	background-size: 100% 100%;
 }
 
 /*introduction-top end*/
@@ -217,7 +218,10 @@
     float: right;
     margin: 20px 20px 0 0;
 }
-#introduction .detailed .btn:hover{
+#introduction .details{
+	color: #404040;
+}
+#introduction .btn:hover{
     background: #108ce5;
 }
 /*introduction end*/
@@ -268,10 +272,15 @@
 
 /*footer-message*/
 #footer-message{
-	width: 100%;
+	width: 100;
 	height: 300px;
 	background: #373d41;
     border-top: 1px solid #4b5054;
+}
+#footer-message .footer-message-center{
+	width: 1024px;
+	height: 300px;
+	margin:0 auto;
 }
 #footer-message .footer-message-left img{
 	position: relative;
@@ -282,7 +291,7 @@
 	float: left;
 	width: 330px;
 	height: 300px;
-	margin-left:  200px;
+	margin-left:  192px;
 	border-right: 1px solid #4b5054;
 }
 #footer-message .footer-message-left h2,#footer-message .footer-message-left p{
@@ -315,11 +324,11 @@
 	width: 190px;
 	height: 260px;
 	float: left;
-    margin: 20px 60px;
+    margin: 20px 30px;
 }
 #footer-message .footer-message-right p{
 	color: #fff;
-	text-align: center;
+	text-align: center
 	font-size: 14px;
 	position: relative;
 	top: 12px;
@@ -390,3 +399,4 @@
     clear: both;
 }
 /*clear both*/
+

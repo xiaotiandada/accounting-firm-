@@ -1,0 +1,132 @@
+/*banner*/
+#banner{
+	width: 1024px;
+	height: 200px;
+	margin: 30px auto;
+	background: url(../images/bannerauite.jpg) no-repeat;
+}
+/*banner end*/
+
+/*second-level-menu*/
+#second-level-menu{
+	width: 1024px;
+	height: 921px;
+	margin: 30px auto;
+}
+#second-level-menu .serviceitem{
+	width: 200px;
+	height: 60px;
+	background: url(../images/serviceitem.png) no-repeat center center;
+}
+#second-level-menu .second-level-menu-left {
+	width: 300px;
+	float: left;
+}
+#second-level-menu .second-level-menu-left ul{
+	list-style: none;
+}
+#second-level-menu .second-level-menu-left ul li{
+	width: 160px;
+	height: 40px;
+	line-height: 40px;
+	background: url(../images/liImg.gif) no-repeat left center;
+	padding-left: 20px;
+	border-bottom: 1px solid rgba(51, 51, 51, 0.13);
+}
+#second-level-menu .second-level-menu-left ul li a{
+	text-decoration: none;
+	display: block;
+	width: 160px;
+	line-height: 40px;
+    font-family: "Microsoft YaHei",sans-serif;
+    position: relative;
+    cursor:pointer;
+    color: #585858;
+}
+#second-level-menu .second-level-menu-left ul li a::after{
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    height: 2px;
+    width: 100%;
+    background: #108ce5;
+    border-radius: 5px;
+    transition:all .8s;
+    opacity:1;
+    transform:rotateY(90deg);
+}
+#second-level-menu .second-level-menu-left ul li a:hover::after{
+    opacity: 1;
+    transform: rotateY(180deg);
+}
+
+
+#second-level-menu .second-level-menu-right {
+	width: 724px;
+	height: 921px;
+	float: right;
+	overflow: hidden;
+}
+
+#second-level-menu .second-level-menu-right-top{
+	width: 724px;
+	height: 54px;
+	border-top: 4px solid #108ce5;
+	border-bottom: 2px solid #108ce5;
+}
+#second-level-menu .second-level-menu-right-top h3,
+#second-level-menu .second-level-menu-right-top p,
+#second-level-menu .second-level-menu-right-top p span,
+#second-level-menu .second-level-menu-right-top p a,
+#introduction .details{
+	color: #404040;
+}
+#second-level-menu .second-level-menu-right-top h3{
+	float: left;
+	font-size: 20px;
+	font-family: "Microsoft YaHei",sans-serif;
+	line-height: 56px;
+}
+#second-level-menu .second-level-menu-right-top p{
+	float: right;
+	font-size: 14px;
+	font-family: "Microsoft YaHei",sans-serif;
+	line-height: 56px;
+	letter-spacing: 1px;
+}
+
+#second-level-menu .second-level-menu-right-bottom{
+	width: 724px;
+	height: 861px;
+}
+#second-level-menu .second-level-menu-right-bottom h2{
+	text-align: center;
+	font-size: 26px;
+	font-family: "Microsoft YaHei",sans-serif;
+	margin-top: 20px;
+}
+#second-level-menu .second-level-menu-right-bottom h3,
+#second-level-menu .second-level-menu-right-bottom p{
+	color: #000;
+	text-indent: 2em;
+	font-family: "Microsoft YaHei",sans-serif;
+}
+#second-level-menu .second-level-menu-right-bottom h3{
+	font-size: 18px;
+	font-weight: 600;
+	margin: 8px 0;
+}
+#second-level-menu .second-level-menu-right-bottom p{
+	text-indent: 2em;
+	font-size: 16px;
+	font-family: "Microsoft YaHei",sans-serif;
+}
+#second-level-menu .second-level-menu-right-bottom .second-level-menu-right-bottom-audit{
+	float: right;
+	color: 404040;
+	font-size: 14px;
+	font-family: "Microsoft YaHei",sans-serif;
+}
+/*second-level-menu end*/

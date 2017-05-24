@@ -20,11 +20,17 @@
 	</div>
 
 	<div class="header-phone">
-	<p>
-		<img src="images/weibo1.png" alt=""><a href="index.html">微博帐号</a>
+	<p id="weibo">
+		<img src="images/weibo1.png" alt="">微博帐号
+		<div class="weibo1">
+			<img src="images/weibo.png" alt="">
+		</div>
 	</p>
-	<p>
-		<img src="images/weixin1.png" alt=""><a href="index.html">微信公众号</a>
+	<p id="weixin">
+		<img src="images/weixin1.png" alt="">微信公众号
+		<div class="weixin1">
+			<img src="images/weixin.gif" alt="">
+		</div>
 	</p>
 	</div>
 </div>
@@ -420,7 +426,26 @@
 <script type="text/javascript">
 $(window).load(function() {
     $('#slider').nivoSlider()
+
+ console.log('如果您看到了这里!');
+ console.log('那么说明你是一个大佬!');
+ console.log('如果不介意的话来一起交流吧!');
+ console.log('QQ:952822399');
+ $("#weibo").mouseover(function () {
+ 	$('.weibo1').css('display','block');
+ });
+  $("#weibo").mouseout(function () {
+ 	$('.weibo1').css('display','none');
+ });
+
+   $("#weixin").mouseover(function () {
+ 	$('.weixin1').css('display','block');
+ });
+  $("#weixin").mouseout(function () {
+ 	$('.weixin1').css('display','none');
+ });
 });
 </script>
+<script src="js/script.js"></script>
 </body>
 </html>

@@ -6,13 +6,13 @@ body{
 /*header*/
 #header-top{
 	width: 100%;
-	height: 100px;
+	height: 120px;
 	/*background: #0092df;*/
 	overflow: hidden;
 }
 #header{
 	width: 1024px;
-	height: 100px;
+	height: 120px;
 	margin: 0 auto;
 }
 
@@ -24,26 +24,38 @@ body{
 	text-indent: -9999px;
 	overflow: hidden;
 }
-#header .header-logo img{
-	height: 90px;
-	margin-top: 5px;
+#header .header-logo .logo{
+	/*width: 140px;*/
+	height: 120px;
+	/*height: 160px;*/
+	/*width: 100px;*/
+	float: left;
+}
+#header .header-logo .logotext{
+	width: 260px;
+	/*height: 120px;*/
+	float: left;
+	margin: 26px 0 0 10px;
 }
 #header .header-phone{
 	float: right;
-	margin-top: 34px;
-}
-#header .header-phone h2,#header .header-phone p{
-	margin: -6px ;
-	font-family:"黑体";
-	color: #fff;
-	letter-spacing: 1px;
-}
-#header .header-phone h2{
-	font-size: 20px;
+	width: 150px;
+	margin-top: 24px;
 }
 #header .header-phone p{
-	font-size: 16px;
+	margin: 10px 0;
 }
+#header .header-phone p img{
+	margin: 0 10px -8px 0;
+}
+#header .header-phone p a{
+	color: #333;
+	letter-spacing: 1px;
+	font-size: 14px;
+	font-family: "Microsoft YaHei",sans-serif;
+
+}
+
 /*header end*/
 
 /*nav*/

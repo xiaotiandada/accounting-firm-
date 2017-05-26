@@ -73,8 +73,8 @@
 #second-level-menu .second-level-menu-right-top{
 	width: 724px;
 	height: 54px;
-	border-top: 4px solid #108ce5;
-	border-bottom: 2px solid #108ce5;
+	border-top: 7px solid rgb(51, 113, 180);
+	border-bottom: 4px solid rgb(51, 113, 180);
 }
 #second-level-menu .second-level-menu-right-top h3,
 #second-level-menu .second-level-menu-right-top p,
